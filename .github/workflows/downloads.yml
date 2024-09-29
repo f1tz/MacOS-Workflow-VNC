@@ -7,8 +7,8 @@ defaults:
 
 jobs:
   build:
-    # runs-on: macos-11
-    runs-on: macos-latest
+    runs-on: macos-11
+    # runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
     - name: Setting the environment up.
