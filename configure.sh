@@ -29,5 +29,5 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 brew install cloudflared
 
 # start cf service
-cloudflared service install $3
+sudo cloudflared service install $3
 
